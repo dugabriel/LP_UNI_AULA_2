@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header-image {
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 3rem;
+    font-weight: bold;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .form-section {
+    margin: 50px 0;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .card-deck {
+    margin-top: 30px;
+  }
+  
