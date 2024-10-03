@@ -1,216 +1,242 @@
-/* Fundo cinza */
-body {
-    background-color: #5f5f5f;
-    font-family: Arial, sans-serif;
-  }
-  
-  .form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 0.4em;
-    background-color: #171717;
-    border-radius: 25px;
-    transition: .4s ease-in-out;
-  }
-  
-  .form:hover {
-    transform: scale(1.05);
-    border: 1px solid black;
-  }
-  
-  #heading {
-    text-align: center;
-    margin: 2em;
-    color: rgb(255, 255, 255);
-    font-size: 1.2em;
-  }
-  
-  .field {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5em;
-    border-radius: 25px;
-    padding: 0.6em;
-    border: none;
-    outline: none;
-    color: white;
-    background-color: #171717;
-    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-  }
-  
-  .input-field {
-    background: none;
-    border: none;
-    outline: none;
-    width: 100%;
-    color: #d3d3d3;
-  }
-  
-  .form .btn {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: 2.5em;
-  }
-  
-  .button1 {
-    padding: 0.5em;
-    padding-left: 1.1em;
-    padding-right: 1.1em;
-    border-radius: 5px;
-    margin-right: 0.5em;
-    border: none;
-    outline: none;
-    transition: .4s ease-in-out;
-    background-color: #252525;
-    color: white;
-  }
-  
-  .button1:hover {
-    background-color: black;
-    color: white;
-  }
-  
-  /* Estilo normal do select */
-select {
-    background-color: #000; /* Fundo preto */
-    color: #fff; /* Texto branco */
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    appearance: none; /* Remove a seta padrão */
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    cursor: pointer;
-  }
-  
-  /* Estilo ao passar o mouse */
-  select:hover {
-    background-color: #fff; /* Fundo branco */
-    color: #000; /* Texto preto */
-  }
-  
-  /* Estilo ao abrir o dropdown */
-  select option {
-    background-color: #000; /* Fundo preto no dropdown */
-    color: #fff; /* Texto branco no dropdown */
-  }
-  
-  select option:hover {
-    background-color: #fff; /* Fundo branco ao passar o mouse */
-    color: #000; /* Texto preto ao passar o mouse */
-  }
-  
-/* CÓDIGO DOS CADS */
 
-/* From Uiverse.io by Smit-Prajapati */ 
+body {
+  background-color: #5f5f5f;
+  font-family: Arial, sans-serif;
+}
+
+
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  position: relative; 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.4em;
+  background-color: #171717;
+  border-radius: 25px;
+  transition: .4s ease-in-out;
+}
+
+.form:hover {
+  transform: scale(1.05);
+  border: 1px solid black;
+}
+
+#heading {
+  text-align: center;
+  margin: 2em;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #d3d3d3;
+}
+
+.form .btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2.5em;
+}
+
+.button1 {
+  padding: 0.5em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
+
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+
+
+select {
+  background-color: #000; 
+  color: #fff; 
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  appearance: none; 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+
+select:hover {
+  background-color: #fff; 
+  color: #000; 
+}
+
+
+select option {
+  background-color: #000;
+  color: #fff;
+}
+
+select option:hover {
+  background-color: #fff; 
+  color: #000; 
+}
+
+
+.row.mb-4 {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* From Uiverse.io by Smit-Prajapati */
 .parent {
-    width: 300px;
-    padding: 20px;
-    perspective: 1000px;
-  }
-  
-  .card {
-    padding-top: 50px;
-    border: 3px solid rgb(255, 255, 255);
-    transform-style: preserve-3d;
-    background: linear-gradient(135deg,#0000 18.75%,#f3f3f3 0 31.25%,#0000 0),
-        repeating-linear-gradient(45deg,#f3f3f3 -6.25% 6.25%,#ffffff 0 18.75%);
-    background-size: 60px 60px;
-    background-position: 0 0, 0 0;
-    background-color: #f0f0f0;
-    width: 100%;
-    box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .card:hover {
-    background-position: -100px 100px, -100px 100px;
-    transform: rotate3d(0.5, 1, 0, 30deg);
-  }
-  
-  .content-box {
-    background: rgba(0, 0, 0, 0.9); /* Alterado para preto */
-    transition: all 0.5s ease-in-out;
-    padding: 60px 25px 25px 25px;
-    transform-style: preserve-3d;
-  }
-  
-  .content-box .card-title {
-    display: inline-block;
-    color: white;
-    font-size: 25px;
-    font-weight: 900;
-    transition: all 0.5s ease-in-out;
-    transform: translate3d(0px, 0px, 50px);
-  }
-  
-  .content-box .card-title:hover {
-    transform: translate3d(0px, 0px, 60px);
-  }
-  
-  .content-box .card-content {
-    margin-top: 10px;
-    font-size: 12px;
-    font-weight: 700;
-    color: #f2f2f2;
-    transition: all 0.5s ease-in-out;
-    transform: translate3d(0px, 0px, 30px);
-  }
-  
-  .content-box .card-content:hover {
-    transform: translate3d(0px, 0px, 60px);
-  }
-  
-  .content-box .see-more {
-    cursor: pointer;
-    margin-top: 1rem;
-    display: inline-block;
-    font-weight: 900;
-    font-size: 9px;
-    text-transform: uppercase;
-    color: black; /* Alterado para preto */
-    background: white;
-    padding: 0.5rem 0.7rem;
-    transition: all 0.5s ease-in-out;
-    transform: translate3d(0px, 0px, 20px);
-  }
-  
-  .content-box .see-more:hover {
-    transform: translate3d(0px, 0px, 60px);
-  }
-  
-  .date-box {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    height: 60px;
-    width: 60px;
-    background: white;
-    border: 1px solid black; /* Alterado para preto */
-    padding: 10px;
-    transform: translate3d(0px, 0px, 80px);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
-  }
-  
-  .date-box span {
-    display: block;
-    text-align: center;
-  }
-  
-  .date-box .month {
-    color: black; /* Alterado para preto */
-    font-size: 9px;
-    font-weight: 700;
-  }
-  
-  .date-box .date {
-    font-size: 20px;
-    font-weight: 900;
-    color: black; /* Alterado para preto */
-  }
-  
+  width: 300px;
+  padding: 20px;
+  perspective: 1000px;
+}
+
+.card {
+  padding-top: 50px;
+  border: 3px solid rgb(255, 255, 255);
+  transform-style: preserve-3d;
+  background: linear-gradient(135deg,#0000 18.75%,#f3f3f3 0 31.25%,#0000 0),
+      repeating-linear-gradient(45deg,#f3f3f3 -6.25% 6.25%,#ffffff 0 18.75%);
+  background-size: 60px 60px;
+  background-position: 0 0, 0 0;
+  background-color: #f0f0f0;
+  width: 100%;
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+  background-position: -100px 100px, -100px 100px;
+  transform: rotate3d(0.5, 1, 0, 30deg);
+}
+
+.content-box {
+  background: rgba(0, 0, 0, 0.9); /* Alterado para preto */
+  transition: all 0.5s ease-in-out;
+  padding: 60px 25px 25px 25px;
+  transform-style: preserve-3d;
+}
+
+.content-box .card-title {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 50px);
+}
+
+.content-box .card-title:hover {
+  transform: translate3d(0px, 0px, 60px);
+}
+
+.content-box .card-content {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #f2f2f2;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 30px);
+}
+
+.content-box .card-content:hover {
+  transform: translate3d(0px, 0px, 60px);
+}
+
+.content-box .see-more {
+  cursor: pointer;
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 9px;
+  text-transform: uppercase;
+  color: black; /* Alterado para preto */
+  background: white;
+  padding: 0.5rem 0.7rem;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 20px);
+}
+
+.content-box .see-more:hover {
+  transform: translate3d(0px, 0px, 60px);
+}
+
+.date-box {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 60px;
+  width: 60px;
+  background: white;
+  border: 1px solid black; /* Alterado para preto */
+  padding: 10px;
+  transform: translate3d(0px, 0px, 80px);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+}
+
+.date-box span {
+  display: block;
+  text-align: center;
+}
+
+.date-box .month {
+  color: black; /* Alterado para preto */
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.date-box .date {
+  font-size: 20px;
+  font-weight: 900;
+  color: black; /* Alterado para preto */
+}
